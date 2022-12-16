@@ -1,0 +1,36 @@
+{
+  "name": "sales-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "node scripts/gh-pages-deploy.js"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-vue-charts": "^19.4.50",
+    "@syncfusion/ej2-vue-schedule": "^19.4.50",
+    "apexcharts": "^3.33.1",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.21.0",
+    "deepmerge": "^4.2.2",
+    "jquery": "^3.6.2",
+    "vue": "^2.6.14",
+    "vue-apexcharts": "^1.6.2",
+    "vue-cal": "^3.10.1",
+    "vue-loader": "^15.9.8",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-router": "^4.5.15",
+    "@vue/cli-plugin-vuex": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "sass": "^1.49.7",
+    "sass-loader": "^10.2.1",
+    "vue-template-compiler": "^2.6.14",
+    "execa": "latest"
+  }
+}
